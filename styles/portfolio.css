@@ -1,0 +1,222 @@
+*{
+    font-family: 'Work Sans';
+}
+/* style header */
+.banner{
+    background-image: url(../images/banner/banner3.png);
+    position: relative;
+    width: 100%;
+    height: 808px;
+    border: 0;
+    margin: 0 auto;
+    
+}
+.banner-title{
+    position: absolute;
+    width: 525px;
+    height: 228px;
+    left: 845px;
+    top: 216px;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;
+    color: white;
+}
+.banner p{
+    position: absolute;
+    width: 494px;
+    height: 78px;
+    left: 876px;
+    top: 468px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: right;
+    color: white;
+    padding-top: 24px;
+}
+.btn-banner{
+    position: absolute;
+    width: 160px;
+    height: 64px;
+    left: 1210px;
+    top: 578px;
+    margin-top: 24px;
+    color: #005FAC;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 10px;
+
+}
+/* main section style */
+main{
+    /* display: block; */
+}
+.section1 {
+    display: flex;
+    width: 1072px;
+    height: 723.3px;
+    left: 206px;
+    top: 939px;
+    max-width: 1140px;
+    margin: 100px 200px;
+    gap: 30px;
+}
+.list{
+    margin-top: 200px;
+
+}
+h1{
+    font-weight: 1000;
+font-size: 40px;
+}
+h4{
+    font-weight: 400;
+font-size: 16px;
+color: #444343;
+}
+ul{
+    list-style: none;
+    padding-left: 0%;
+    color: #444343;
+
+}
+ul li:before{
+    content: '\2714\0020';
+    color: green;
+}
+/* Section2 style ....Plan section */
+.plan-headline{
+    margin-top: 130px;
+    margin-bottom: 100px;
+    text-align: center;
+    font-weight: 700;
+font-size: 40px;
+}
+.section2{
+    margin: 30px;
+}
+/* Plan style */
+.Plan{
+    background: #FFFFFF;
+    padding: 10px;
+    text-align: center;
+}
+.Plan-container{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+    
+}
+.Plan-title{
+    font-weight: 700;
+    font-size: 30px ;
+    margin-top: 20px;
+}
+.Plan-description{
+    font-size: 16px;
+    color: #757575;
+}
+/* section 3 gradient picture style */
+.section3{
+    background-image:
+    linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%),
+    url('../images/watch.png');
+    height: 300px;
+    background-size: cover;
+    color: white;
+    padding: 20px;
+    display: block;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+
+}
+.btn-section3{
+    width: 160px;
+    height: 64px;
+    left: 1210px;
+    top: 578px;
+    margin-left: 100px;
+    color: #005FAC;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 10px;
+
+}
+.section3 h2{
+    margin-left: 100px;
+    margin-top: 60px;
+    font-weight: 700;
+    font-size: 40px;
+    max-width: 500px;
+}
+
+.Future{
+    display: flex;
+    gap: 100px;
+    background: black;
+    padding: 130px 200px;
+    margin-top: 100px;
+    color: white;
+}
+.Future .section-title{
+    text-align: left;
+    font-weight: 700;
+    font-size: 30px;
+}
+.Future input[type="email"]{
+    margin-bottom: 24px;
+    border: solid 2px;
+    border-color: white;
+    background-color: black;
+    width: 100%;
+    padding: 10px 10px;
+    border-radius: 10px;
+} 
+input{
+    height: 50px;
+    
+}
+.Future a{
+    text-decoration: none;
+    
+}
+.btn-subs{
+    width: 160px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    background-color: #005FAC;
+    color: #FFFFFF;
+    border-radius: 10px;
+}
+.section-description{
+    max-width: 600px;
+}
+/* extea section table added */
+table{
+    tab-size: 500px;
+    width: 84%;
+    row-gap: 50px;
+    column-gap: 100px;
+    margin: 120px;
+    padding: 80px;
+    text-align: center;
+    background-color: rgb(217, 245, 245);
+    border: #005FAC solid;
+    gap: 100px;
+    border-spacing: 50px;
+
+}
+td,th{
+    font-size: larger;
+    gap: 50px;
+    color: rgba(124, 13, 236, 0.84);
+}
